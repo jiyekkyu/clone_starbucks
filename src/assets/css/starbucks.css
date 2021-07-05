@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+}
+
+nav ul, li {
+	list-style: none;
+	display: block;
+    float: left;
+	margin: 0;
+	font: normal 13px Avenir, Arial, georgia;
+	text-align: center;
+	color: #555;
+	line-height: 20px;
+	height: 20px;
+	padding: 0;
+}
+
+.sub-wrap {
+    background: #f6f5ef;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 2px solid #000;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	height: 120px;
+	z-index: 99;
+	position: relative;
+}
+
+.sub-wrap * {
+	position: relative;
+}
+
+.sub-wrap-1 {
+	width: 1100px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.search-btn {
+	width: 34px;
+	height: 34px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 5px;
+	top: 10px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.search-btn img {
+	width: 28px;
+	top: 1px;
+}
+
+.starbucks-icon {
+	top: 20px;
+	position: absolute !important;
+}
+
+.nav1 {
+	float: right;
+	right: 65px;
+}
+
+.nav1 ul {
+	top: 16px;
+}
+
+.nav1 li {
+	padding: 0 12px;
+	border-left: 1px solid #b5b5b53b;
+	cursor: pointer;
+}
+
+.nav1 li:first-child {
+	border: 0 !important;
+}
+
+.nav2 {
+	width: 100%;
+	height: 70px;
+	height: 66px;
+	top: 54px;
+	position: absolute;
+}
+
+.nav2 ul {
+	padding-top: 10px;
+	float: right;
+	right: 15px;
+}
+
+.nav2 li {
+	padding: 0 20px;
+	color: #333 !important;
+}
+
+/*
+@media screen and (min-width: 961px) {
+}
+*/
